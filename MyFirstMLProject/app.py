@@ -1,10 +1,11 @@
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
 st.title('Sosyal Medya Dolandırıcılık Tespit Aracı')
-
-model = joblib.load('model.joblib')
+model_path = os.path.join(os.path.dirname(__file__), 'model.joblib')
+model = joblib.load(model_path)
 
 message_length = st.number_input('Mesaj Uzunluğu', min_value=0)
 num_links = st.number_input('Link Sayısı', min_value=0)
