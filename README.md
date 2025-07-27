@@ -22,6 +22,3 @@ Hashtag sayısı
 Profil fotoğrafı var mı
 Hesap onaylı mı
 Hesap yaşı (gün)
-
-Lisans
-MIT
