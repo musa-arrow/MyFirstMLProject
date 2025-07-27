@@ -59,8 +59,10 @@ streamlit run app.py
 - Profil fotoğrafı var mı
 - Hesap onaylı mı
 - Hesap yaşı (gün)
+
 🌐 Canlı Uygulama
-Uygulamayı Deneyin
+https://machinelearning-eogz62bkfgyrjp3qocnbvd.streamlit.app
+
 📝 Lisans
 MIT
 
